@@ -1,0 +1,148 @@
+body {
+  text-align: center !important;
+  margin-top: 150px !important;
+  background: #eaf6f6 !important;
+}
+h1,
+h3 {
+  font-family: "Ubuntu", sans-serif;
+}
+.container {
+  max-width: 50% !important;
+  margin: 10px;
+  border: 1px solid gray;
+  border-radius: 5px;
+  box-shadow: rgba(37, 39, 89, 0.3) 0px 8px 8px 0px;
+  background: white;
+  font-family: Roboto, arial, sans-serif;
+}
+div {
+  display: inline-block;
+  vertical-align: top;
+  font-size: medium;
+  font-weight: normal;
+  color: #202124;
+}
+.col {
+  margin-top: 20px;
+  padding-top: 20px;
+}
+.img {
+  height: 60px;
+  width: 60px;
+  margin-top: unset;
+  vertical-align: top;
+  display: inline-block;
+}
+.mainTemp {
+  letter-spacing: normal;
+  font-size: 48px;
+  line-height: 24px;
+  margin-top: 6px;
+  padding-left: 6px;
+}
+.mainDegree {
+  font-size: 16px;
+  line-height: 24px;
+  margin-top: 6px;
+  padding-left: 6px;
+}
+.mainIm .celsius {
+  color: #70757a;
+}
+.addTemps {
+  color: #70757a;
+  display: inline-block;
+  font-size: 12px;
+  line-height: 16px;
+  padding-left: 9px;
+  padding-top: 6px;
+  position: relative;
+}
+ul {
+  list-style: none;
+  margin: 0 auto;
+  padding: 0;
+}
+.city {
+  font-size: 22px;
+  line-height: 26px;
+  font-weight: 400px;
+}
+.date,
+.condition {
+  color: #70757a;
+  font: 16px;
+  line-height: 20px;
+  font-weight: normal;
+}
+.condition {
+  font-size: 12px;
+  text-transform: capitalize;
+}
+a {
+  text-decoration: none !important;
+  color: #202124 !important;
+}
+.selections {
+  text-align: center;
+  cursor: default;
+  padding-bottom: 4px;
+  font-size: 14px;
+  line-height: 1.6;
+}
+.tempSelect,
+.precipSelect,
+.windSelect {
+  display: inline-block;
+}
+.input-group {
+  padding-left: 0;
+  transition: all 200ms ease;
+}
+form {
+  margin-top: 15px;
+}
+.searchBar {
+  width: 50%;
+  height: 44px;
+  background: #fff;
+  border: solid 1px transparent;
+  box-shadow: 0 2px 5px 1px rgb(64 60 67 / 16%);
+  border-radius: 24px;
+  margin: 0 auto;
+}
+.btn {
+  padding-right: 13px;
+  background: transparent;
+  cursor: pointer;
+}
+
+.weeklyTemps {
+  padding-top: 7px;
+  cursor: pointer;
+}
+.weekday {
+  display: inline-block;
+  height: 95px;
+  line-height: 1px;
+  margin-right: 7px;
+  text-align: center;
+  width: 75px;
+}
+.dayLabel {
+  display: block;
+  text-align: center;
+  line-height: 15px;
+  padding-top: 7px;
+}
+.weekImages {
+  height: 48px;
+  margin: 1px 4px 0;
+  width: 48px;
+}
+.weekCurrentTemps {
+  display: block;
+  font-size: 13px;
+  line-height: 15px;
+}
